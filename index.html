@@ -10,9 +10,9 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="interests.html">Interests</a></li>
+            <li><a href="#" class="current texthover">Home</a></li>
+            <li><a href="projects.html" class="texthover">Projects</a></li>
+            <li><a href="interests.html" class="texthover">Interests</a></li>
         </ul>
     </nav>
     <div class="superflex">
@@ -29,6 +29,8 @@
                 <li>I have 7 siblings</li>
                 <li>I was originally from Minnesota</li>
             </ul>
+            <!-- Tried to do something different using this srcset- can't definitively say
+            whether this works better than flexboxes and dynamic image resizing in CSS -->
             <img class="hovernow"
             sizes="(max-width: 1400px) 100vw, 1400px"
             src="/images/PythonCoding/PythonCoding_dtdre0_c_scale,w_1347.jpg"
