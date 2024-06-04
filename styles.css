@@ -1,0 +1,77 @@
+/* Navbar Styling */
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-image: linear-gradient(#006666,#003366);
+    color:white;
+    padding: 1em;
+}
+
+nav ul li a{
+    font-weight: bold;
+    color: white;
+}
+/* Footer Styling */
+footer{
+    display: flex;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    position:static;
+}
+footer ul{
+    list-style-type: none;
+}
+/* Set perimeter of website to an off-white color for aesthetic */
+html{
+  background-color: #f9f9f9;
+}
+/* Main Body Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+
+  /* Resized all site images to 50% to properly fit on page */
+  img{
+    width: 50%;
+    max-width: 100%;
+  }
+
+  /* Added Reusable Drop Shadow Styling */
+  .hovernow {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .hovernow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Universal Container Styling for main content, includes off-white coloration */
+  .superflex{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+  }
+
+  /* CSS Responsive Design Works */
+
+  /* Styles for screens larger than 768px */
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  } */
+  /* Using flexible units (em) */
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
